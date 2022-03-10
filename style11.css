@@ -1,0 +1,42 @@
+table {
+  border: 1px solid #333;  
+  border-collapse: collapse;
+  border-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  
+} 
+table th {
+  background: url(imagenes/fondo_gris.gif) repeat-x;
+}
+
+table, th, td { 
+    padding: 5px;
+    text-align: center;
+  }  
+
+.fama {
+  background-color: #FFFFCC;
+}
+.fila {
+  text-align: left;
+}
+
+table th.euro {
+  background: #E6F3FF url(imagenes/euro.png) no-repeat left center;
+  padding: 0 .3em 0 1.2em;
+}
+table th.dolar {
+  background: #E6F3FF url(imagenes/dolar.png) no-repeat left center;
+  padding: 0 .3em 0 1.2em;
+}
+table th.libra {
+  background: #E6F3FF url(imagenes/libra.png) no-repeat left center;
+  padding: 0 .3em 0 1.2em;
+}
+table th.yen {
+  background: #E6F3FF url(imagenes/yen.png) no-repeat left center;
+  padding: 0 .3em 0 1.2em;
+}
+
+
+

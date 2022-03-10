@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Registrar un usuario</h1>
+    <form action="Formulario Ej:6" method="post" enctype="multipart/form-data">
+        <label>Nombre del Usuario</label>
+        <br>
+        <input type="text" name="nombre">
+        <br>
+        <label>Contraseña del Usuario</label>
+        <br>
+        <input type="password" name="pwd">
+        <br>
+        <label>Edad del Usuario</label>
+        <br>
+        <input type="number" name="edad">
+        <br>
+        <label>Fecha de nacimiento del usuario</label>
+        <br>
+        <input type="date" name="nacimiento">
+        <br>
+        <label>Sexo del usuario</label>
+        <br>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <br>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label><br>
+        <input type="radio" id="nodecir" name="sexo" value="nodecir">
+        <label for="nodecir">Prefiero no decir</label>
+
+        <br>
+        <label>Pais nacimiento del usuario</label>
+        <br>
+        <select name="pais">
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+        <input type="hidden" name="instituto" value="Egg Educación">
+    </form>
+
+</body>
+
+</html>

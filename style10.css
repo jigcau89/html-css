@@ -1,0 +1,74 @@
+#titulo {
+    color: green;
+}
+p strong {
+    color: red;
+}
+
+/*para class . */
+.destacado {
+    color: rgb(226, 155, 23);
+}
+
+/*selecctor de id con # */
+#subtitulo {
+    color: blue;
+}
+
+/* link sin visitar */
+p a {
+    color: red;
+}
+a em {
+    color: blue;
+}
+/* link visitado */
+a:visited {
+    color: blue;
+}
+/* link clickeado */
+a:active {
+    color: gray;
+}
+
+.especial {
+    color: violet;
+}
+
+thead .especial {
+    color: orange;
+}
+tbody .especial {
+    color: orange;
+}
+tbody th {
+    color: red;
+}
+tfoot {
+    color: red;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: black;
+    padding: 3px;
+  }
+td{
+      color: green;
+  }
+td strong {
+      color: orange;
+  }
+#adicional {
+    color: olive;
+}
+#especial {
+    color: fuchsia;
+}
+ 
+div a {
+    color: green;
+}
+div#adicional a { 
+    color: green;
+ }
